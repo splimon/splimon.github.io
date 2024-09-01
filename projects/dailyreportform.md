@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/dkist photo.jpg
-title: "DKIST Daily Report Form"
+title: "DKIST Daily Report Form Upgrade"
 date: 2024-08-06
 published: true
 labels:
@@ -16,7 +16,7 @@ Over the summer of 2024, I interned at the Daniel K. Inouye Solar Telescope (DKI
 
 <div class="text-center p-4">
   <img width="500px" src="../img/form-old.png" class="img-thumbnail" >
-  <img width="500px" src="../img/form-activity-log-window.png" class="img-thumbnail" >
+  <img width="450px" src="../img/form-activity-log-window.png" class="img-thumbnail" >
 </div>
 
 ## Background and Significance
@@ -34,9 +34,10 @@ Feedback: Next, I received feedback from the SOS Group to gather their thoughts,
 
 Prototyping and Integration: Using the SOS Group's feedback, I honed down on the most frequent concerns, which mainly addressed the manual time entries and time inconsistencies, and began developing my GUI prototype on Confiforms. In the previous form, start and end times for telescope observation activities were logged manually. To address this problem, I implemented checkboxes that automatically inputted the "start time" and "end time" in HST. I also added a checkbox to move the current "end time" to the "start time" to mark a new form submission. Also, the previous form did not flagging time overlaps and inconsistencies, so I implemented a CSS indicator that would highlight the form submission as red if the end time was greater than the start time, or if both times were the same. 
 
+All of these UI changes were integrated into the official Daily Report Form and were tested by the SOS Group. The next generation form will be presented at the next DKIST Observing Campaign. 
+    
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    All of these UI changes were integrated into the official Daily Report Form and were tested by the SOS Group. The next generation form will be presented at the next DKIST Observing Campaign. 
     <div style="margin-right: 20px;">
       <img class="img-thumbnail" src="../img/form-checkboxes.png" width="500px">
       <p>Checkboxes for time auto-population</p>
