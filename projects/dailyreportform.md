@@ -36,5 +36,5 @@ Next, I received feedback from the SOS Group to gather their thoughts, opinions,
 Using the SOS Group's feedback, I honed down on the most frequent concerns, which mainly addressed the manual time entries and time inconsistencies, and began developing my GUI prototype on Confiforms. In the previous form, start and end times for telescope observation activities were logged manually. To address this problem, I implemented checkboxes that automatically inputted the start times and end times in HST. A checkbox also moved the current end time to the start time to mark a new form submission.
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail">
+  <img width="200px" src="../img/form-checkboxes.png" class="img-thumbnail">
 </div>
