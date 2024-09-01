@@ -9,7 +9,7 @@ labels:
   - UX/UI Design
   - Java
   - Confluence
-summary: "I developed a prototype toolkit and GUI for the next generation Daniel K. Inouye Solar Telescope Science (DKIST) Science Operations Specialist (SOS) Group Daily Activity Reporting tool."
+summary: "I developed a prototype toolkit and GUI for the next generation Daniel K. Inouye Solar Telescope (DKIST) Science Operations Specialist (SOS) Group Daily Activity Report Form."
 ---
 
 <div class="text-center p-4">
