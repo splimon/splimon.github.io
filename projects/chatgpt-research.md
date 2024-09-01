@@ -13,7 +13,7 @@ summary: "My parter and I developed a research project that aims to find ways st
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/chatgpt-research-poster.png" class="img-thumbnail" >
+  <img width="800px" src="../img/chatgpt-research-poster.png" class="img-thumbnail" >
 </div>
 
 My project titled "Optimizing Computer Science Education in the Presence of ChatGPT" was for a research internship with the Native Hawaiian Science & Engineering Mentorship Program (NHSEMP) Program at the University of Hawaii at Manoa. This project was presented at a final research symposium at the end of my internship.
@@ -33,5 +33,5 @@ After 1 week, both groups were subjected to a post-test to determine whether the
 ## My contribution
 My role was a co-investigator for this research project, and I worked alongside my partner every step of the way. I also received guidance from my principal investigator (PI) throughout the duration of this study. I was responsible for every component of this project, which consisted of formulating and distributing the pre-test and post-test, creating assignments for both the ChatGPT and Non-ChatGPT test groups, creating the end-of-study survey, and performing data analysis on the results gathered.
 
-# What did I learn?
+## What did I learn?
 This was my very first time co-leading a research study, and I learned a lot about the entire formal research process.
