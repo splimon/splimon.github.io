@@ -16,10 +16,10 @@ Over the summer of 2024, I interned at the Daniel K. Inouye Solar Telescope (DKI
 
 <div class="text-center p-4">
   <img width="500px" src="../img/form-old.png" class="img-thumbnail" >
-  <img width="450px" src="../img/form-activity-log-window.png" class="img-thumbnail" >
+  <img width="470px" src="../img/form-activity-log-window.png" class="img-thumbnail" >
 </div>
 
-## Background and Significance
+## Why is this important?
 The National Solar Observatory’s Daniel K. Inouye Solar Telescope is dedicated to studying the sun's magnetic fields and dynamic behavior. These discoveries are all made possible with the help of the Science Operations Specialist (SOS) Group, who are responsible for operating DKIST and documenting hundreds of operations activities using the SOS Daily Activity Report Form. Although the current form is effective, it necessitates significant manual entries, posing efficiency challenges for the timely logging of observational data by the SOS Group.
 
 ## Project Summary
@@ -32,9 +32,9 @@ Research: To start, I researched whether native or web-based applications were b
 
 Feedback: Next, I received feedback from the SOS Group to gather their thoughts, opinions, and concerns with the current Daily Report Form. I asked about what improvements they would like to see, what issues they run into, usability of UI navigation, and what features they would like more automated.
 
-Prototyping and Integration: Using the SOS Group's feedback, I honed down on the most frequent concerns, which mainly addressed the manual time entries and time inconsistencies, and began developing my GUI prototype on Confiforms. In the previous form, start and end times for telescope observation activities were logged manually. To address this problem, I implemented checkboxes that automatically inputted the "start time" and "end time" in HST. I also added a checkbox to move the current "end time" to the "start time" to mark a new form submission. Also, the previous form did not flagging time overlaps and inconsistencies, so I implemented a CSS indicator that would highlight the form submission as red if the end time was greater than the start time, or if both times were the same. 
+Prototyping and Integration: Using the SOS Group's feedback, I honed down on the most frequent concerns, which mainly addressed the manual time entries and time inconsistencies, and began developing my GUI prototype on Confiforms. In the previous form, start and end times for telescope observation activities were logged manually. To address this problem, I implemented checkboxes that automatically inputted the "start time" and "end time" in HST. I also added a checkbox to move the current "end time" to the "start time" to mark a new form submission. Additionally, the previous form did not flagging time overlaps and inconsistencies, so I implemented a CSS indicator that would highlight the form submission as red if the end time was greater than the start time, or if both times were the same. 
 
-All of these UI changes were integrated into the official Daily Report Form and were tested by the SOS Group. The next generation form will be presented at the next DKIST Observing Campaign. 
+All of these UI changes were integrated into the official Daily Report Form and were tested by the SOS Group. The next generation form will be presented at the next DKIST Observing Campaign:
     
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
@@ -49,7 +49,7 @@ All of these UI changes were integrated into the official Daily Report Form and 
   </div>
 </div>
 
-Message Automation: Finally, I worked with the high-level software (HLS) team to build an automated message queue system that grab messages from separate GUIs and automatically inserts them as specific entries in the Daily Report Form. Currently, when the SOS Group submits a form, this data is sent to a computer called OCS, which then send the data as a JSON payload to a computer called BAKER. To facilitate communication between these two computers, we need a message broker software called RabbitMQ. By editing and running Java classes provided by the HLS team, I was able to create a connection to RabbitMQ via the localhost instance, send messages to RabbitMQ, and store these messages in the dkist.observationLog queue. I then processed these messages as a JSON payload and sent them to the official Daily Report Form in Confiforms using a REST API. 
+Message Automation: Finally, I worked with the high-level software (HLS) team to build an automated message queue system that grab messages from separate GUIs and automatically inserts them as specific entries in the Daily Report Form. Currently, when the SOS Group submits a form, this data is sent to a computer called OCS, which then sends the data as a JSON payload to another computer called BAKER. To facilitate communication between these two computers, we need a message broker software called RabbitMQ. By editing and running Java classes provided by the HLS team, I was able to create a connection to RabbitMQ via the localhost instance, send messages to RabbitMQ, and store these messages in the dkist.observationLog queue. I then processed these messages as a JSON payload and sent them to the official Daily Report Form in Confiforms using a REST API. 
 
 The Java source code can be accessed <a href="https://github.com/splimon/dailyreportform">here.</a>
 
