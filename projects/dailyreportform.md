@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/dkist photo.jpg
 title: "SOS Daily Report Form"
 date: 2024-08-06
 published: true
