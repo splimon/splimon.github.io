@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/dkist photo.jpg
-title: "DKIST Daily Report Form Upgrade"
+title: "DKIST Daily Activity Report Form"
 date: 2024-08-06
 published: true
 labels:
