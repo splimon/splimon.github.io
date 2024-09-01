@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/dkist photo.jpg
-title: "SOS Daily Report Form"
+title: "DKIST Daily Report Form"
 date: 2024-08-06
 published: true
 labels:
@@ -18,22 +18,23 @@ summary: "I developed a prototype toolkit and GUI for the next generation Daniel
   <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Over the summer of 2024, I interned at the Daniel K. Inouye Solar Telescope (DKIST) in Maui, Hawaii under the Akamai Workforce Initiative Program. My project is titled "Science Operations Specialist Group Daily Report Form Upgrade", which focused on developing a GUI prototype and automated message queue for DKIST's Daily Activity Report Form.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+## Project Background & Significance
+The National Solar Observatory’s Daniel K. Inouye Solar Telescope is dedicated to studying the sun's magnetic fields and dynamic behavior. These discoveries are all made possible with the help of the Science Operations Specialist (SOS) Group, who are responsible for operating DKIST and documenting hundreds of operations activities using the SOS Daily Activity Report Form. Although the current form is effective, it necessitates significant manual entries, posing efficiency challenges for the timely logging of observational data by the SOS Group.
 
-Here is some code that illustrates how we read values from the line sensors:
+## Project Summary
+This project aims to ensure efficient logging of daytime solar activities and operations by upgrading the SOS Daily Report Form through two phases. The first phase focuses on developing a prototype toolkit and graphical user interface (GUI) for the next generation DKIST Daily Activity Report Form. The second phase focuses on auto-populating log information using an observing event message queue provided by DKIST’s high-level software group. Integration of this phase involves enabling communication between the GUI prototype and a DSSC machine using RabbitMQ, a message-queuing broker software. This process runs on Oracle VirtualBox using the Ubuntu Linux operating system and coded in Java.
 
-```cpp
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
+## My Contribution
+I was responsible for all aspects of the project from start to finish. However, throughout my project, I received guidance from my mentor, who works as a Science Operations Specialist at DKIST. I also worked with a DKIST High-Level Software Engineer, who helped me produce the automated message queue system using Java.
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+To start, I researched whether native or web-based applications were best for improving the form's current user interface. In the end, I settled on the web-based application, Confiforms for Atlassian Confluence. Since the existing Daily Report Form alreday resided on Confiforms, it would be easier to implement my GUI alterations. This also means my alterations wouldn't clash too much with the pre-existing Python code devleoped by one of the SOS Group members.
+
+Next, I received feedback from the SOS Group to gather their thoughts, opinions, and concerns with the current Daily Report Form. I asked about what improvements they would like to see, what issues they run into, usability of UI navigation, and what features they would like more automated.
+
+Using the SOS Group's feedback, I honed down on the most frequent concerns, which mainly addressed the manual time entries and time inconsistencies, and began developing my GUI prototype on Confiforms. In the previous form, start and end times for telescope observation activities were logged manually. To address this problem, I implemented checkboxes that automatically inputted the start times and end times in HST. A checkbox also moved the current end time to the start time to mark a new form submission.
+
+<div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail">
+</div>
