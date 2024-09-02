@@ -6,7 +6,7 @@ title: "Teaching an ICS 111 Recitation"
 date: 2024-02-23
 published: true
 labels:
-  - Teaching
+  - Learning Assistant
   - Computer Science
 summary: "I taught an ICS 111 recitation session on number theory and cryptography for my ICS 390 course."
 ---
