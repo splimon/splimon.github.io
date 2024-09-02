@@ -2,14 +2,14 @@
 layout: project
 type: project
 image: img/dkist photo.jpg
-title: "DKIST Daily Activity Report Form"
+title: "Daily Activity Report Form"
 date: 2024-08-06
 published: true
 labels:
   - UX/UI Design
   - Java
   - Confluence
-summary: "A GUI for the next generation Daniel K. Inouye Solar Telescope (DKIST) Science Operations Specialist (SOS) Group Daily Activity Report Form."
+summary: "A GUI prototype for the next generation Daniel K. Inouye Solar Telescope (DKIST) Science Operations Specialist (SOS) Group Daily Activity Report Form."
 ---
 
 Over the summer of 2024, I interned at the Daniel K. Inouye Solar Telescope (DKIST) in Maui, Hawaii under the Akamai Workforce Initiative Program. My project was titled "Science Operations Specialist Group Daily Report Form Upgrade", which focused on developing a GUI prototype and automated message queue for DKIST's Daily Activity Report Form.
