@@ -21,7 +21,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Python", "Javascript", "" ]
+      "keywords": [ "C", "C++", "Java", "Python", "Javascript"]
     },
     {
       "name": "Toolsets/OS",
@@ -57,12 +57,24 @@
   ],
   "volunteer": [
     {
+      "organization": "Daniel K. Inouye Solar Telescope",
+      "website": "https://nso.edu/telescopes/inouye-solar-telescope/",
+      "position": "Computer Science Intern",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Develop a prototype toolkit and GUI for the next generation DKIST Daily Activity Report Form",
+        "Determine whether native or web-based applications would be best for improving the UI to log day time activity and operations"
+      ]
+    },
+    {
       "organization": "Instructional Design and Educational Assessment (IDEA) Research Group",
       "website": "",
       "position": "Undergraduate Student Researcher",
       "startDate": "2023",
       "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "summary": "",
       "highlights": [
         "Work on student-led computer science research funded by UROP",
         "Attend weekly meetings with principal investigator and other IDEA lab student researchers"
@@ -87,6 +99,12 @@
       "date": "Present",
       "awarder": "Undergraduate Research Opportunities Program",
       "summary": "Awarded to applicant(s) of the highest-regarded UROP project proposal during each funding cycle to support undergraduate research and creative work at UH Mānoa."
+    },
+    {
+      "title": "Dean's List",
+      "date": "Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade."
     },
     {
       "title": "State of Hawai’i B Plus Scholarship",
