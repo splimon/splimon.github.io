@@ -1,18 +1,18 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/number-theory.jpg
 title: "Teaching an ICS 111 Recitation"
 date: 2024-02-23
 published: true
 labels:
   - Teaching
   - Computer Science
-summary: "I taught an ICS 111 recitation session on number theory and cryptography."
+summary: "I taught an ICS 111 recitation session on number theory and cryptography for my ICS 390 course."
 ---
 
 <div class="text-center p-4">
-  <img width="400px" src="../img/teaching-ch4.png" class="img-thumbnail" >
+  <img width="600px" src="../img/teaching-ch4.png" class="img-thumbnail" >
 </div>
 
 ## Overview
