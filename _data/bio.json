@@ -4,13 +4,13 @@
     "label": "Student",
     "picture": "https://github.com/splimon.png",
     "email": "splimon@hawaii.edu",
-    "phone": "808-724-8088",
+    "phone": "",
     "website": "https://splimon.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2026.",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "splimon", "url": "http://github.com/splimon" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/samantha-limon-71a013258" }
+      { "network": "linkedin", "username": "samantha-limon", "url": "http://linkedin.com/in/samantha-limon-71a013258" }
     ]
   },
   "interests": [
@@ -21,19 +21,19 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "Java", "Python", "Javascript", "" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "gcc", "Windows", "Linux"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "area": "Computer Science (expected Spring, 2026)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2022-08-22",
       "endDate": "Present",
       "courses": [
       ]
@@ -41,69 +41,58 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Shidler Business College",
+      "position": "Student Assistant",
       "website": "",
-      "startDate": "2015-08-01",
+      "startDate": "2022",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
-      "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
       "summary": "",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Duplicate instructional and administrative materials",
+        "Pick up and distribute mail, forward mail to proper personnel",
+        "File materials as instructed by supervisor",
+        "Answer phone and assist with inquiries"
       ]
     }
   ],
-  "volunteer": [
+  "activities": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
+      "organization": "Instructional Design and Educational Assessment (IDEA) Research Group",
+      "website": "",
+      "position": "Undergraduate Student Researcher",
+      "startDate": "2023",
       "endDate": "Present",
       "summary": "Lead developer for weather sensing project",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
+        "Work on student-led computer science research funded by UROP",
+        "Attend weekly meetings with principal investigator and other IDEA lab student researchers"
       ]
     },
     {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
+      "organization": "Hawaii Undergraduate Initiative",
+      "website": "https://manoa.hawaii.edu/omsshui/",
+      "position": "Director of External Affairs",
+      "startDate": "2022",
+      "endDate": "2023",
       "summary": "",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Responsible for planning and organizing community service events for over 60 club members, including volunteer activities and donation drives",
+        "Communicate with respective outside sources and club members through regular meetings, email, and social media"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Douglas S. Yamamura Scholarship",
+      "date": "2024",
+      "awarder": "Undergraduate Research Opportunities Program",
+      "summary": "Awarded to applicant(s) of the highest-regarded UROP project proposal during each funding cycle to support undergraduate research and creative work at UH Mānoa."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "State of Hawai’i B Plus Scholarship",
+      "date": "2022 - Present",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to undergraduate students who graduated from a State of Hawai’i public high school and ompleted a rigorous high school curriculum."
     }
   ],
   "references": [
