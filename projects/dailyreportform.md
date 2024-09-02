@@ -8,7 +8,7 @@ published: true
 labels:
   - UX/UI Design
   - Java
-  - Confluence
+  - GUI
 summary: "A GUI prototype for the next generation Daniel K. Inouye Solar Telescope (DKIST) Science Operations Specialist (SOS) Group Daily Activity Report Form."
 ---
 
