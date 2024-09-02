@@ -43,7 +43,7 @@
     {
       "company": "Shidler Business College",
       "position": "Student Assistant",
-      "website": "",
+      "website": "https://shidler.hawaii.edu/mir-home",
       "startDate": "2022",
       "endDate": "Present",
       "summary": "",
@@ -76,7 +76,7 @@
       "endDate": "2023",
       "summary": "",
       "highlights": [
-        "Responsible for planning and organizing community service events for over 60 club members, including volunteer activities and donation drives",
+        "Plan and organize community service events for over 60 club members, including volunteer activities and donation drives",
         "Communicate with respective outside sources and club members through regular meetings, email, and social media"
       ]
     }
@@ -84,7 +84,7 @@
   "awards": [
     {
       "title": "Douglas S. Yamamura Scholarship",
-      "date": "2024",
+      "date": "Present",
       "awarder": "Undergraduate Research Opportunities Program",
       "summary": "Awarded to applicant(s) of the highest-regarded UROP project proposal during each funding cycle to support undergraduate research and creative work at UH Mānoa."
     },
