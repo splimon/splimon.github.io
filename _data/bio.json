@@ -53,31 +53,55 @@
         "File materials as instructed by supervisor",
         "Answer phone and assist with inquiries"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "Daniel K. Inouye Solar Telescope",
-      "website": "https://nso.edu/telescopes/inouye-solar-telescope/",
+      "company": "Daniel K. Inouye Solar Telescope",
       "position": "Intern",
+      "website": "https://nso.edu/telescopes/inouye-solar-telescope/",
       "startDate": "2024",
       "endDate": "",
       "summary": "",
       "highlights": [
         "Develop a prototype toolkit and GUI for the next generation DKIST Daily Activity Report Form",
-        "Determine whether native or web-based applications would be best for improving the UI to log day time activity and operations"
+        "Determine whether native or web-based applications would be best for improving the UI to log day time activity and operations",
       ]
     },
     {
-      "organization": "Instructional Design and Educational Assessment (IDEA) Lab",
+      "company": "Instructional Design and Educational Assessment Research Lab",
+      "position": "Undergraduate Researcher",
       "website": "",
-      "position": "Student Researcher",
-      "startDate": "2023",
+      "startDate": "2024",
       "endDate": "Present",
       "summary": "",
       "highlights": [
         "Work on student-led computer science research funded by UROP",
-        "Attend weekly meetings with principal investigator and other IDEA lab student researchers"
+        "Attend weekly meetings with principal investigator and other IDEA lab student researchers",
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Native Hawaiian Science and Engineering Mentorship Program",
+      "website": "https://sites.google.com/a/hawaii.edu/nhsemp/home",
+      "position": "STEM Scholar",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Engage in community service for Hawaiian communities",
+        "Participate in developmental workshops and network with faculty/staff in the STEM workforce",
+      ]
+    },
+    {
+      "organization": "Programming AND Algorithms",
+      "website": "",
+      "position": "Member",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+        "Solve algorithmic programming problems in preparation for technical job interviews",
+        "Attend events aimed to help students develop computer science skills through mock interviews, resume building, and career information sessions"
       ]
     },
     {
