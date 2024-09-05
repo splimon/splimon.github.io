@@ -36,3 +36,5 @@ By the end of the study, we performed data analysis using methods such as T-test
 
 ## What did I learn?
 This was my very first time co-leading a research study, and I learned a lot about the entire formal research process. From conceptualizing an experimental hypothesis to performing data analyses, I was able to understand more about how computer science intertwines with education from a research perspective. I also learned the importance of teamwork, collaboration, and building an extensive research project from the ground-up. Doing this experience has expanded my professional network, and I continue to do research under the mentorship of my PI with other undergraduate students in the Instructional Design and Educational Assessment (IDEA) Research Group.
+
+For more information, you may view the full symposium presentation <a href="https://docs.google.com/presentation/d/1qAJuny37jjNOqI6DYMpKmFv4XdyjjS5zx3nbRdP2ES8/edit?usp=sharing">here.</a>
