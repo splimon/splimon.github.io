@@ -9,10 +9,9 @@ labels:
   - Typescript
   - Athletic Software Engineering
 ---
-
-<img width="200px" class="rounded float-start pe-4" src="../img/typescript.png">
-
 ## Wait, What’s Typescript?
+<img class="ui right floated rounded image" width="35%" src="../images/typescript-logo.png">
+
 During this past summer, I interned at the Daniel K. Inouye Solar Telescope where I developed a prototype GUI for the Science Operations Specialist team. I remember receiving my internship offer email and ecstatically clicking the link titled “Project Details.” As I read over the project description, everything sounded perfect until I hit one word that made my stomach drop. JavaScript. 
 
 Uh oh. What a way to ruin my mood.
