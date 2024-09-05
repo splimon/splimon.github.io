@@ -11,7 +11,7 @@ labels:
 ---
 
 ## Wait, What’s Typescript?
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/typescript-logo.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/typescript-logo.svg.png">
 
 During this past summer, I interned at the Daniel K. Inouye Solar Telescope where I developed a prototype GUI for the Science Operations Specialist team. I remember receiving my internship offer email and ecstatically clicking the link titled “Project Details.” As I read over the project description, everything sounded perfect until I hit one word that made my stomach drop. JavaScript. 
 
@@ -28,4 +28,4 @@ Overall, I believe that Typescript is a powerful programming language that enhan
 ## Practice WOD You Preach
 As the saying goes, “practice makes perfect,” and this phrase is extremely applicable to programming. In ICS 314, we practice athletic software engineering, which is where we consistently test our software engineering skills by solving coding problems in a timed manner. These WODs (workouts of the day) are challenging and often very stress-inducing, adding another layer of complexity to an already intense learning environment. Yet, despite the pressure, I find myself enjoying this learning style because it forces me to recall concepts quickly and apply them under real-world conditions. With each WOD, I simulate the high-pressure situations typical in technical interviews, just with slightly less pressure.
 
-Although I’ve only completed a few WODs so far, I’ve noticed a significant improvement in my coding efficiency. For our very first WOD (Project Euler Problem 1), it took me five attempts to consistently solve the problem under the time limit. On our second WOD (Cracking the Coding Interview, Problem 1), it took me three attempts. On our third WOD (Temperature Converter), it took me two attempts. While I’m still far from perfect, it’s gratifying to know that I’m steadily improving, all thanks to my WOD-erful friend: practice.
+Although I’ve only completed a few WODs so far, I’ve noticed a significant improvement in my coding efficiency. For our very first WOD (Project Euler Problem 1), it took me five attempts to consistently solve the problem under the time limit. On our second WOD (Cracking the Coding Interview, Problem 1), it took me three attempts. On our third WOD (Temperature Converter), it took me two attempts. While I’m still far from perfect, it’s gratifying to know that I’m steadily improving, all thanks to my WOD-erful friend called practice.
