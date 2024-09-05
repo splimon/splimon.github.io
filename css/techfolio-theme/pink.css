@@ -1,0 +1,36 @@
+/* Lime Theme: modifies the default theme to inject a wee bit o' green in various places. */
+
+/* Use Open Sans as the default font. */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700|Source+Code+Pro:300,400,500,700");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+:root {
+  --tf-pink1: #F8C8DC; // pastel pink
+  --tf-pink2: #FFB6C1; // light pink
+  --tf-pink3: #FF69B4; // hot pink
+  --tf-green4: #e0f2df;
+  --bs-font-sans-serif: "Open Sans", sans-serif;
+  --bs-link-color: var(--tf-pink3);
+  --tf-pill-bg: var(--tf-pink1);
+  --tf-icon-fill: var(--tf-pink3);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--tf-pink2);
+  --tf-projects-bg-color: var(--tf-pink1);
+}
+
+h1,h2,h3,h4 {
+  color: var(--tf-pink3);
+}
+
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-pink3);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
