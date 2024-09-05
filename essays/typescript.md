@@ -11,7 +11,7 @@ labels:
 ---
 
 ## Wait, What’s Typescript?
-<img width="500px" class="ui right floated rounded image" src="../img/typescript.png">
+<img width="400px" class="rounded float-end ps-4" src="../img/typescript.png">
 
 During this past summer, I interned at the Daniel K. Inouye Solar Telescope where I developed a prototype GUI for the Science Operations Specialist team. I remember receiving my internship offer email and ecstatically clicking the link titled “Project Details.” As I read over the project description, everything sounded perfect until I hit one word that made my stomach drop. JavaScript. 
 
