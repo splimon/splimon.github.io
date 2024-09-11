@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 <div class="text-center">
-    <img width="700px" class="rounded float-start pe-5" src="../img/bad-question-comic-strip.png">
+    <img width="400px" class="rounded float-start pe-5" src="../img/bad-question-comic-strip.png">
 </div>
 
 *“The scientist is not a person who gives the right answers, he's one who asks the right questions.” ― Claude Levi-Strauss*
@@ -29,11 +29,10 @@ Now, let’s explore examples of what smart and not-so-smart questions look like
 
 Take a look at this question asked on Stack Overflow titled [“How to create abstract properties in Python abstract classes?"](https://stackoverflow.com/questions/5960337/how-to-create-abstract-properties-in-python-abstract-classes)
 
-<div class="text-center">
-    <img width="700px" class="rounded mb-4" src="../img/smart-question-stackoverflow-example.png">
-</div>
-
 ```
+Q: In the following code, I create a base abstract class Base. I want all the classes that inherit from Base to provide the name property, so I made this property an @abstractmethod.
+
+Then I created a subclass of Base, called Base_1, which is meant to supply some functionality, but still remain abstract. There is no name property in Base_1, but nevertheless python instatinates an object of that class without an error. How does one create abstract properties?
 from abc import ABCMeta, abstractmethod
 
 class Base(object):
@@ -84,9 +83,20 @@ Right from the start, the user provides a clear explanation of the code they've 
 
 Now, let’s look at a less effective question titled [“OSError: [Errno 8] Exec format error: './FastTree' [duplicate]"](https://stackoverflow.com/questions/78971941/oserror-errno-8-exec-format-error-fasttree)
 
-<div class="text-center">
-    <img width="700px" class="rounded mb-4" src="../img/not-smart-question-stackoverflow-example.png">
-</div>
+```
+Q: I keep getting this error which by my google search means that there is a shabang missing but I'm not sure where I"m supposed to put it. Any help is appreciated!
+
+ if tree_method == 'FastTree':  # Build the tree using FastTree
+            command = ["./FastTree", path_msa]
+            os.makedirs(dir_tree + 'FastTree/', exist_ok=True)
+            path_tree = dir_tree + 'FastTree/' + filename_without_extension + '.newick'
+            with open(path_tree, "w") as outfile:
+                subprocess.call(command, stdout=outfile)
+
+The error gets triggered on the last line of this code.
+
+PS.When I run the same code from shell on linux as > FastTree <directory> it works just fine.
+```
 
 From the title alone, the reader is left uncertain about the exact problem, and the content of the question does little to clarify it. This lack of clarity violates Raymond’s guideline: “Use meaningful, specific subject headers.” The user mentions an error and a quick Google search but provides minimal background on what they’re trying to achieve. Furthermore, they show little effort in troubleshooting the problem beyond the initial search. This makes it challenging for others to understand the issue and offer help. The closing remark, “Any help is appreciated!”, while polite, falls into another of Raymond’s traps: the “semantically-null question,” which adds no value to the query.
 
