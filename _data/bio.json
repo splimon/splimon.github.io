@@ -102,18 +102,6 @@
       ]
     },
     {
-      "organization": "Programming AND Algorithms",
-      "website": "",
-      "position": "Member",
-      "startDate": "2022",
-      "endDate": "2023",
-      "summary": "",
-      "highlights": [
-        "Solve algorithmic programming problems in preparation for technical job interviews",
-        "Attend events aimed to help students develop computer science skills through mock interviews, resume building, and career information sessions"
-      ]
-    },
-    {
       "organization": "University of Hawaii at Manoa",
       "website": "",
       "position": "Learning Assistant",
@@ -124,6 +112,18 @@
         "Worked with students in an in-class recitation section for ICS 111: Introduction to Computer Science",
         "Held office hours every week to assist students with course content",
         "Taught a lesson covering Number Theory and Cryptography"
+      ]
+    },
+    {
+      "organization": "Programming AND Algorithms",
+      "website": "",
+      "position": "Member",
+      "startDate": "2022",
+      "endDate": "2023",
+      "summary": "",
+      "highlights": [
+        "Solve algorithmic programming problems in preparation for technical job interviews",
+        "Attend events aimed to help students develop computer science skills through mock interviews, resume building, and career information sessions"
       ]
     },
     {
