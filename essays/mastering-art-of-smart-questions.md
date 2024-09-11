@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 <div class="text-center">
-    <img width="600px" class="rounded float-start pe-5" src="../img/bad-question-comic-strip.png">
+    <img width="600px" class="rounded float-end ps-4" src="../img/bad-question-comic-strip.png">
 </div>
 
 *“The scientist is not a person who gives the right answers, he's one who asks the right questions.” ― Claude Levi-Strauss*
