@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 <div class="text-center">
-    <img width="600px" class="rounded float-start pe-5" src="../img/bad-question-comic-strip.png">
+    <img width="700px" class="rounded float-start pe-5" src="../img/bad-question-comic-strip.png">
 </div>
 
 *“The scientist is not a person who gives the right answers, he's one who asks the right questions.” ― Claude Levi-Strauss*
@@ -32,6 +32,51 @@ Take a look at this question asked on Stack Overflow titled [“How to create ab
 <div class="text-center">
     <img width="700px" class="rounded mb-4" src="../img/smart-question-stackoverflow-example.png">
 </div>
+
+```
+from abc import ABCMeta, abstractmethod
+
+class Base(object):
+# class Base(metaclass = ABCMeta): <- Python 3
+    __metaclass__ = ABCMeta
+    def __init__(self, str_dir_config):
+        self.str_dir_config = str_dir_config
+    
+    @abstractmethod
+    def _do_stuff(self, signals):
+        pass
+    
+    @property    
+    @abstractmethod
+    def name(self):
+        """This property will be supplied by the inheriting classes
+        individually.
+        """
+        pass
+    
+
+class Base1(Base):
+    __metaclass__ = ABCMeta
+    """This class does not provide the name property and should
+    raise an error.
+    """
+    def __init__(self, str_dir_config):
+        super(Base1, self).__init__(str_dir_config)
+        # super().__init__(str_dir_config) <- Python 3
+    
+    def _do_stuff(self, signals):
+        print "Base_1 does stuff"
+        # print("Base_1 does stuff") <- Python 3
+
+class C(Base1):
+    @property
+    def name(self):
+        return "class C"
+    
+
+if __name__ == "__main__":
+    b1 = Base1("abc")
+```
 
 Right from the start, the user provides a clear explanation of the code they've written, their intended goal, and the steps they've taken so far. This background information is crucial, as it allows others to understand the context and offer precise, informed answers. The question itself is straightforward and encapsulates exactly what the user wants to know. Rather than seeking general advice on abstract properties, it addresses a specific challenge: the failure to enforce an abstract property. This level of specificity helps people provide targeted and actionable solutions, as exemplified by the top answer to this question in Stack Overflow, who indicated that since Python 3.3, abstract properties have changed, so the user needed to "use @property above @abstractmethod" to resolve their issue. Furthermore, the question is well-structured and easy to understand, using appropriate technical terminology. This clarity and attention to detail contribute to effective communication, aligning with the principles of asking smart questions emphasized by Raymond.
 
