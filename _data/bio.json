@@ -17,7 +17,7 @@
     { "name": "UX/UI Design" },
     { "name": "Web Development" },
     { "name": "3D Graphics" },
-    { "name": "Artificial Intelligence", }
+    { "name": "Artificial Intelligence"}
   ],
   "skills": [
     {
@@ -156,7 +156,7 @@
       "title": "State of Hawai’i B Plus Scholarship",
       "date": "2022 - Present",
       "awarder": "University of Hawaii at Manoa",
-      "summary": "Awarded to undergraduate students who graduated from a State of Hawai’i public high school and ompleted a rigorous high school curriculum."
+      "summary": "Awarded to undergraduate students who graduated from a State of Hawai’i public high school and completed a rigorous high school curriculum."
     },
     {
       "title": "Sakada Scholar",
@@ -168,7 +168,7 @@
       "title": "Harriet and Kwai Yeu Choy STEM/Education Scholarship",
       "date": "2022",
       "awarder": "Leilehua Alumni and Community Association",
-      "summary": "Awarded to students who have demonstrated strong academic records, work ethics, and giving back to the greater community."
+      "summary": "Awarded to students who have demonstrated strong academic records, work ethic, and giving back to the greater community."
     }
   ],
   "references": [
