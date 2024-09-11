@@ -30,9 +30,11 @@ Now, let’s explore examples of what smart and not-so-smart questions look like
 Take a look at this question asked on Stack Overflow titled [“How to create abstract properties in Python abstract classes?"](https://stackoverflow.com/questions/5960337/how-to-create-abstract-properties-in-python-abstract-classes)
 
 ```
-Q: In the following code, I create a base abstract class Base. I want all the classes that inherit from Base to provide the name property, so I made this property an @abstractmethod.
+Q: In the following code, I create a base abstract class Base. I want all the classes that inherit from Base to provide the name property,
+so I made this property an @abstractmethod.
 
-Then I created a subclass of Base, called Base_1, which is meant to supply some functionality, but still remain abstract. There is no name property in Base_1, but nevertheless python instatinates an object of that class without an error. How does one create abstract properties?
+Then I created a subclass of Base, called Base_1, which is meant to supply some functionality, but still remain abstract. There is no name
+property in Base_1, but nevertheless python instatinates an object of that class without an error. How does one create abstract properties
 from abc import ABCMeta, abstractmethod
 
 class Base(object):
@@ -77,14 +79,15 @@ if __name__ == "__main__":
     b1 = Base1("abc")
 ```
 
-Right from the start, the user provides a clear explanation of the code they've written, their intended goal, and the steps they've taken so far. This background information is crucial, as it allows others to understand the context and offer precise, informed answers. The question itself is straightforward and encapsulates exactly what the user wants to know. Rather than seeking general advice on abstract properties, it addresses a specific challenge: the failure to enforce an abstract property. This level of specificity helps people provide targeted and actionable solutions, as exemplified by the top answer to this question in Stack Overflow, who indicated that since Python 3.3, abstract properties have changed, so the user needed to "use @property above @abstractmethod" to resolve their issue. Furthermore, the question is well-structured and easy to understand, using appropriate technical terminology. This clarity and attention to detail contribute to effective communication, aligning with the principles of asking smart questions emphasized by Raymond.
+Right from the start, the user provides a clear explanation of the code they've written, their intended goal, and the steps they've taken so far. This background information is crucial, as it allows us to understand the context and help others offer precise, informed answers. The question itself is straightforward and captures exactly what the user wants to know. Rather than seeking general advice on abstract properties, it addresses a specific challenge: the failure to enforce an abstract property. This specificity helps people provide targeted and actionable solutions, as exemplified by the top answer to this question in Stack Overflow, which indicated that since Python 3.3, abstract properties have changed, so the user needed to "use @property above @abstractmethod" to resolve their issue. Furthermore, the question is well-structured and easy to understand, using appropriate technical terminology. This clarity and attention to detail contribute to effective communication, aligning with the principles of asking smart questions emphasized by Raymond.
 
 ## Not-so-Smart questions
 
 Now, let’s look at a less effective question titled [“OSError: [Errno 8] Exec format error: './FastTree' [duplicate]"](https://stackoverflow.com/questions/78971941/oserror-errno-8-exec-format-error-fasttree)
 
 ```
-Q: I keep getting this error which by my google search means that there is a shabang missing but I'm not sure where I"m supposed to put it. Any help is appreciated!
+Q: I keep getting this error which by my google search means that there is a shabang missing but I'm not sure where I"m supposed to put it.
+Any help is appreciated!
 
  if tree_method == 'FastTree':  # Build the tree using FastTree
             command = ["./FastTree", path_msa]
@@ -98,11 +101,8 @@ The error gets triggered on the last line of this code.
 PS.When I run the same code from shell on linux as > FastTree <directory> it works just fine.
 ```
 
-From the title alone, the reader is left uncertain about the exact problem, and the content of the question does little to clarify it. This lack of clarity violates Raymond’s guideline: “Use meaningful, specific subject headers.” The user mentions an error and a quick Google search but provides minimal background on what they’re trying to achieve. Furthermore, they show little effort in troubleshooting the problem beyond the initial search. This makes it challenging for others to understand the issue and offer help. The closing remark, “Any help is appreciated!”, while polite, falls into another of Raymond’s traps: the “semantically-null question,” which adds no value to the query.
+From the title alone, the reader is left uncertain about the exact problem, and the content of the question does little to clarify it. This lack of clarity violates Raymond’s guideline: “Use meaningful, specific subject headers.” To continue, the user mentions an error and a quick Google search, but provides minimal background on what they’re trying to achieve. They also show little effort in troubleshooting the problem beyond the initial search. This makes it challenging for others to understand the issue and offer help. The closing remark, “Any help is appreciated!”, while polite, falls into another of Raymond’s traps: the “semantically-null question,” which adds no value to the query.
 
 ## Reflections and Insights
 
-Smart questions are critical in software engineering, not just because they lead to better answers, but also because they demonstrate a thoughtful approach to problem-solving. In the examples above, the smart question received detailed and helpful responses, as displayed by the 250+ upvotes it received. In contrast, the not-so-smart question was closed just two hours after I found it, reflecting the poor quality of the initial query. Asking a question takes time, and being able to form a smart question takes double the amount of effort and consideration. However, the benefits of well-considered questions extend beyond the asker and contribute to the broader community by creating productive exchanges and interactions for everyone.
-
-
-
+Smart questions are critical in software engineering, not just because they lead to better answers, but also because they demonstrate a thoughtful approach to problem-solving. In the examples above, the smart question received detailed and helpful responses, which the 250+ upvotes can attest to. In contrast, the not-so-smart question was closed just two hours after I found it, reflecting the poor quality of the initial question. Asking a question takes time, and being able to form a smart question takes double the amount of effort and consideration. However, the benefits of well-considered questions extend beyond the asker and contribute to the broader community by creating productive exchanges and interactions for everyone.
