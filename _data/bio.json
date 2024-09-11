@@ -93,7 +93,7 @@
       "website": "https://sites.google.com/a/hawaii.edu/nhsemp/home",
       "position": "STEM Scholar",
       "startDate": "2024",
-      "endDate": "",
+      "endDate": "Present",
       "summary": "",
       "highlights": [
         "Engage in community service for Hawaiian communities",
@@ -110,6 +110,19 @@
       "highlights": [
         "Solve algorithmic programming problems in preparation for technical job interviews",
         "Attend events aimed to help students develop computer science skills through mock interviews, resume building, and career information sessions"
+      ]
+    },
+    {
+      "organization": "University of Hawaii at Manoa",
+      "website": "",
+      "position": "Learning Assistant",
+      "startDate": "2024",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Worked with students in an in-class recitation section for ICS 111: Introduction to Computer Science",
+        "Held office hours every week to assist students with course content",
+        "Taught a lesson covering Number Theory and Cryptography"
       ]
     },
     {
@@ -143,6 +156,18 @@
       "date": "2022 - Present",
       "awarder": "University of Hawaii at Manoa",
       "summary": "Awarded to undergraduate students who graduated from a State of Hawai’i public high school and ompleted a rigorous high school curriculum."
+    },
+    {
+      "title": "Sakada Scholar",
+      "date": "2022",
+      "awarder": "The United Filipino Council of Hawaii Foundation",
+      "summary": "Awarded to outstanding high school seniors who believe in the importance of education and community service as future leaders in our community and the community at large, to pursue their academic realities."
+    },
+    {
+      "title": "Harriet and Kwai Yeu Choy STEM/Education Scholarship",
+      "date": "2022",
+      "awarder": "Leilehua Alumni and Community Association",
+      "summary": "Awarded to students who have demonstrated strong academic records, work ethics, and giving back to the greater community."
     }
   ],
   "references": [
