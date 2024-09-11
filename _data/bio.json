@@ -36,6 +36,14 @@
       "startDate": "2022-08-22",
       "endDate": "Present",
       "courses": [
+        "ICS 111: Introduction to Computer Science I (Object-Oriented Programming)",
+        "ICS 211: Introduction to Computer Science II (Data Structures)",
+        "ICS 141: Discrete Mathematics for Computer Science I",
+        "ICS 241: Discrete Mathematics for Computer Science II",
+        "ICS 212: Program Structure",
+        "ICS 390: Computing Ethics for LAs",
+        "ICS 311: Algorithms (In Progress)",
+        "ICS 314: Software Engineering I (In Progress)",
       ]
     }
   ],
@@ -67,7 +75,7 @@
       ]
     },
     {
-      "company": "Instructional Design and Educational Assessment Research Lab",
+      "company": "Instructional Design and Educational Assessment Lab",
       "position": "Undergraduate Researcher",
       "website": "",
       "startDate": "2024",
