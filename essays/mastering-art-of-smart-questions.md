@@ -10,7 +10,7 @@ labels:
   - StackOverflow
 ---
 <div class="text-center">
-    <img width="500px" class="rounded float-start pe-4" src="../img/bad-question-comic-strip.png">
+    <img width="600px" class="rounded float-start pe-4" src="../img/bad-question-comic-strip.png">
 </div>
 
 *“The scientist is not a person who gives the right answers, he's one who asks the right questions.” ― Claude Levi-Strauss*
@@ -33,7 +33,7 @@ Take a look at this question asked on Stack Overflow titled [“How to create ab
     <img width="700px" class="rounded mb-4" src="../img/smart-question-stackoverflow-example.png">
 </div>
 
-Right from the start, the user provides a clear explanation of the code they've written, their intended goal, and the steps they've taken so far. This background information is crucial, as it allows others to understand the context and offer precise, informed answers. The question itself is straightforward and encapsulates exactly what the user wants to know. This format aligns perfectly with the key values Raymond emphasizes, making it a smart question.
+Right from the start, the user provides a clear explanation of the code they've written, their intended goal, and the steps they've taken so far. This background information is crucial, as it allows others to understand the context and offer precise, informed answers. The question itself is straightforward and encapsulates exactly what the user wants to know. Rather than seeking general advice on abstract properties, it addresses a specific challenge: the failure to enforce an abstract property. This level of specificity helps people provide targeted and actionable solutions, as exemplified by the top answer to this question in Stack Overflow, who indicated that the user needed to "use @property above @abstractmethod." Furthermore, the question is well-structured and easy to understand, using appropriate technical terminology. This clarity and attention to detail contribute to effective communication, aligning with the principles of asking smart questions emphasized by Raymond.
 
 ## Not-so-Smart questions
 
