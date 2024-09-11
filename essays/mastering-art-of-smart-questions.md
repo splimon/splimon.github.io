@@ -9,14 +9,13 @@ labels:
   - SMART Questions
   - StackOverflow
 ---
+<div class="text-center">
+    <img width="500px" class="rounded float-start pe-4" src="../img/bad-question-comic-strip.png">
+</div>
 
 *“The scientist is not a person who gives the right answers, he's one who asks the right questions.” ― Claude Levi-Strauss*
 
 Humans are instinctively curious creatures. When we want to know more about something, we naturally ask about it. For software engineers, asking the right questions is crucial, as it can lead to effective solutions, especially if those questions are constructed correctly. In his essay “[How to Ask Questions the Smart Way](http://www.catb.org/esr/faqs/smart-questions.html),” Eric Raymond provides guidelines on how to formulate good questions in open-source online communities, such as Stack Overflow, to improve the likelihood of receiving well-written, helpful answers.
-
-<div class="text-center">
-    <img width="700px" class="rounded mb-4" src="../img/bad-question-comic-strip.png">
-</div>
 
 ## Raymond’s Guide to Good vs. Bad Questions
 
