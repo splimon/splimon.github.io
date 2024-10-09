@@ -35,8 +35,8 @@ That being said, why even bother to learn raw HTML and CSS if frameworks like Bo
 To further hone down the differences between using raw HTML and CSS versus Bootstrap 5, let’s take a look at these two examples:
 
 <div class="text-center p-5">
-  <img width="600px" src="../img/frameworks/browser-history.png">
-  <img width="600px" src="../img/frameworks/localmotionhawaii.png">
+  <img width="550px" src="../img/frameworks/browser-history.png">
+  <img width="550px" src="../img/frameworks/localmotionhawaii.png">
 </div>
 
 On the left is a simple website created entirely with raw HTML and CSS. As you can see, while the website serves its purpose, the design is not the most aesthetically pleasing. On the right, I recreated a version of the <a href="https://www.localmotionhawaii.com/collections/hawaiianstyle?page=1">Local Motion Hawaii</a> website using Bootstrap 5. The design is more polished and includes complex, responsive components like dropdown menus, a carousel for multiple pages, and an input form for emails. This example highlights how Bootstrap 5 makes it easier to implement advanced design features quickly, whereas CSS would require significantly more time and effort to achieve the same results. 
