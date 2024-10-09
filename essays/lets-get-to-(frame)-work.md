@@ -30,7 +30,7 @@ That being said, why even bother to learn raw HTML and CSS if frameworks like Bo
   <img width="900px" src="../img/frameworks/murphys.png">
 </div>
 
-## Frameworks Make Frontend Development a Pizza Cake
+## Frameworks Make Coding a Pizza Cake
 
 To further hone down the differences between using raw HTML and CSS versus Bootstrap 5, let’s take a look at these two examples:
 
