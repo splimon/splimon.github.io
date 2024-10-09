@@ -26,18 +26,20 @@ The beauty of UI frameworks like Bootstrap 5 is that they help front-end develop
 
 That being said, why even bother to learn raw HTML and CSS if frameworks like Bootstrap 5 exist? Both CSS and Bootstrap each serve their individual purposes. Depending on the type of website you want to make or the task at hand, using raw CSS might still be necessary. Bootstrap 5 provides a wide selection of pre-made components, but sometimes you need more control or customization than what a framework offers. In my experience working with Bootstrap 5, I found that while it gave me a head start on building responsive layouts, there were moments when I needed to custom-write CSS to get the exact look that I wanted. For example, to get more practice using Bootstrap 5 for my ICS 314: Software Engineering I course, we were tasked to replicate a website for a popular local restaurant and bar called <a href="https://www.murphyshawaii.com/">Murphy’s Bar and Grill</a>. To my luck, Bootstrap 5 already contained many pre-made components, such as the navigation bar and footer. However, to customize the footer with the exact shade of green as the official website, I had to customize it using CSS. 
 
-<img width="300px" src="../img/frameworks/murphys.png">
+<div class="text-center">
+  <img width="500px" src="../img/frameworks/murphys.png">
+</div>
 
 ## Frameworks Make Frontend Development a Pizza Cake
 
 To further hone down the differences between using raw HTML and CSS versus Bootstrap 5, let’s take a look at these two examples:
 
-<div class="text-center p-4">
-  <img width="300px" src="../img/frameworks/browser-history.png">
-  <img width="300px" src="../img/frameworks/localmotionhawaii.png">
+<div class="text-center" style="padding-right: 5rem">
+  <img width="600px" src="../img/frameworks/browser-history.png">
+  <img width="500px" src="../img/frameworks/localmotionhawaii.png">
 </div>
 
-On the left is a simple website created entirely with raw HTML and CSS. As you can see, while the website serves its purpose, the design is not the most aesthetically pleasing. On the right, I recreated a version of the Local Motion Hawaii website using Bootstrap 5. The design is more polished and includes complex, responsive components like dropdown menus, a carousel for multiple pages, and an input form for emails. This example highlights how Bootstrap 5 makes it easier to implement advanced design features quickly, whereas CSS would require significantly more time and effort to achieve the same results. 
+On the left is a simple website created entirely with raw HTML and CSS. As you can see, while the website serves its purpose, the design is not the most aesthetically pleasing. On the right, I recreated a version of the <a href="https://www.localmotionhawaii.com/collections/hawaiianstyle?page=1">Local Motion Hawaii</a> website using Bootstrap 5. The design is more polished and includes complex, responsive components like dropdown menus, a carousel for multiple pages, and an input form for emails. This example highlights how Bootstrap 5 makes it easier to implement advanced design features quickly, whereas CSS would require significantly more time and effort to achieve the same results. 
 
 # Food for Thought
 
