@@ -26,16 +26,16 @@ The beauty of UI frameworks like Bootstrap 5 is that they help front-end develop
 
 That being said, why even bother to learn raw HTML and CSS if frameworks like Bootstrap 5 exist? Both CSS and Bootstrap each serve their individual purposes. Depending on the type of website you want to make or the task at hand, using raw CSS might still be necessary. Bootstrap 5 provides a wide selection of pre-made components, but sometimes you need more control or customization than what a framework offers. In my experience working with Bootstrap 5, I found that while it gave me a head start on building responsive layouts, there were moments when I needed to custom-write CSS to get the exact look that I wanted. For example, to get more practice using Bootstrap 5 for my ICS 314: Software Engineering I course, we were tasked to replicate a website for a popular local restaurant and bar called <a href="https://www.murphyshawaii.com/">Murphy’s Bar and Grill</a>. To my luck, Bootstrap 5 already contained many pre-made components, such as the navigation bar and footer. However, to customize the footer with the exact shade of green as the official website, I had to customize it using CSS. 
 
-<div class="text-center">
-  <img width="500px" src="../img/frameworks/murphys.png">
+<div class="text-center p-5">
+  <img width="900px" src="../img/frameworks/murphys.png">
 </div>
 
 ## Frameworks Make Frontend Development a Pizza Cake
 
 To further hone down the differences between using raw HTML and CSS versus Bootstrap 5, let’s take a look at these two examples:
 
-<div class="text-center" style="padding-right: 5rem">
-  <img width="600px" src="../img/frameworks/browser-history.png">
+<div class="text-center p-5">
+  <img width="800px" src="../img/frameworks/browser-history.png">
   <img width="500px" src="../img/frameworks/localmotionhawaii.png">
 </div>
 
