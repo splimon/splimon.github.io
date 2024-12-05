@@ -32,7 +32,7 @@ However, design patterns extend beyond templates. They also include specific way
 
 One example from my Musicians of Manoa project was the “Observer Design Pattern”, which is particularly useful for handling state changes. Imagine the Observer Design Pattern as a conductor in an orchestra. When the conductor (the state) changes tempo, the entire orchestra (the components) adjusts in real-time.
 
-Here’s how it played out in our project: When a user submitted jam session details (e.g. jam name, image, organizer, genre, location, date & time, instrument(s), experience level, and description) it triggered changes across the app. The submission went through a React component called JamInfoForm, which then sent the data to a PostgreSQL database using the addJamInformation function:
+Here’s how it played out in our project: When a user submitted jam session details (e.g. jam name, image, organizer, genre, location, date & time, instrument(s), experience level, and description) it triggered changes across the application. The submission went through a React component called JamInfoForm, which then sent the data to a PostgreSQL database using the addJamInformation function:
 
 ```
 export async function addJamInformation(jamInfo: {
@@ -94,6 +94,6 @@ Once this form is submitted, the database updates, and the UI automatically refl
 
 ## Blueprints for Success
 
-In conclusion, design patterns are not only just tools, but the foundation for creating robust, maintainable, and efficient software. By giving us reusable blueprints for common problems, they let developers focus on what really matters—bringing ideas to life. From the reusable components of React to the Observer Design Pattern’s real-time updates, my experiences in ICS 314 showed me how design patterns transform ideas into reality. Just like architects rely on blueprints to construct skyscrapers, developers rely on design patterns to create stable, efficient, and imaginative software.
+In conclusion, design patterns are not only just tools, but the foundation for creating robust, maintainable, and efficient software. By giving us reusable blueprints for common problems, they let software developers and engineers focus on what really matters—bringing ideas to life. From the reusable components of React to the Observer Design Pattern’s real-time updates, my experiences in ICS 314 showed me how design patterns transform ideas into reality. Just like architects rely on blueprints to construct skyscrapers, developers rely on design patterns to create stable and efficient software.
 
 So, next time someone asks, “What are design patterns?” just tell them: they’re the reason we don’t have to build a skyscraper without blueprints.
