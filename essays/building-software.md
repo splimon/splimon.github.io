@@ -30,9 +30,9 @@ However, design patterns extend beyond templates. They also include specific way
 
 ## A Symphony of State Changes
 
-One example from my Musicians of Manoa project was the **Observer Design Pattern**, which is particularly useful for handling state changes. Imagine the Observer Design Pattern as a conductor in an orchestra. When the conductor (the state) changes tempo, the entire orchestra (the components) adjusts in real-time.
+One example from my Musicians of Manoa project was the **Observer Design Pattern**, which is particularly useful for handling state changes. Imagine the Observer Design Pattern as a conductor in an orchestra. When the conductor (the state) changes tempo, the entire orchestra (the components) adjusts in real-time. In this project, I was responsible for creating the Jam Information Form, which allowed users to create Jam sessions, and the subsequent Jam Information Cards, which allowed users to view information posted via the form. 
 
-Here’s how it played out in our project: When a user submitted jam session details (e.g. jam name, image, organizer, genre, location, date & time, instrument(s), experience level, and description) it triggered changes across the application. The submission went through a React component called JamInfoForm, which then sent the data to a PostgreSQL database using the addJamInformation function:
+Here’s how it played out in our project: When a user submitted jam session details (e.g. jam name, image, organizer, genre, location, date & time, instrument(s), experience level, and description) it triggered changes across the application. The submission went through a React component called `JamInfoForm`, which then sent the data to a PostgreSQL database using the `addJamInformation` function:
 
 ```
 export async function addJamInformation(jamInfo: {
@@ -69,7 +69,7 @@ export async function addJamInformation(jamInfo: {
 }
 ```
 
-On the user interface side, the JamInfoForm component invokes this function through an onSubmit event handler:
+On the user interface side, the `JamInfoForm` component invokes this function through an `onSubmit` event handler:
 
 ```
 const onSubmit = async (data: {
