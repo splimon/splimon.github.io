@@ -63,6 +63,18 @@
       ]
     },
     {
+      "company": "Instructional Design and Educational Assessment Lab",
+      "position": "Undergraduate Researcher",
+      "website": "",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Work on student-led computer science research funded by UROP",
+        "Attend weekly meetings with principal investigator and other IDEA lab student researchers",
+      ]
+    },
+    {
       "company": "Shidler Business College",
       "position": "Student Assistant",
       "website": "https://shidler.hawaii.edu/mir-home",
@@ -86,18 +98,6 @@
       "highlights": [
         "Develop a prototype toolkit and GUI for the next generation DKIST Daily Activity Report Form",
         "Determine whether native or web-based applications would be best for improving the UI to log day time activity and operations",
-      ]
-    },
-    {
-      "company": "Instructional Design and Educational Assessment Lab",
-      "position": "Undergraduate Researcher",
-      "website": "",
-      "startDate": "2024",
-      "endDate": "Present",
-      "summary": "",
-      "highlights": [
-        "Work on student-led computer science research funded by UROP",
-        "Attend weekly meetings with principal investigator and other IDEA lab student researchers",
       ]
     }
   ],
