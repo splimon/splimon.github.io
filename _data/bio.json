@@ -50,6 +50,19 @@
   ],
   "work": [
     {
+      "company": "Manoa Now",
+      "position": "Web and Mobile Developer",
+      "website": "https://www.manoanow.org/",
+      "startDate": "2024",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [
+        "Designed and implemented responsive web pages for the Manoa Now platform using React Native, reaching over 1,500 downloads",
+        "Use Xcode and Android Studio to ensure smooth app performance across iOS and Android",
+	"Optimized website and app performance, reducing load times and improving overall user experience",
+      ]
+    },
+    {
       "company": "Shidler Business College",
       "position": "Student Assistant",
       "website": "https://shidler.hawaii.edu/mir-home",
