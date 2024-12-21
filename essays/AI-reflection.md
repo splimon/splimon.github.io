@@ -4,7 +4,7 @@ type: essay
 title: "Reject Tradition, Embrace Moderninity: AI in Education"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-15
-published: false
+published: true
 labels:
   - Artificial Intelligence (AI)
   - Education
