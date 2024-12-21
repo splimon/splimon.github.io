@@ -9,15 +9,20 @@ labels:
   - Digital Design
   - Augmented Cognition
   - Research
-summary: "This research project investigates how variations in instructional website design influence retention and cognitive processing using eye tracking software and data-driven analysis to identify key design elements that optimize digital learning experiences."
+summary: "A project to investigate how variations in instructional website design influence retention and cognitive processing using Webgazer.js eye tracking software"
 ---
+## Overview
 My project titled "Exploring the Impact of Digital Design on Augmented Cognition" was for a research study under the mentorship of Dr. Michael-Brian Ogawa and Branden Ogata. This project was presented at the Fall 2024 Undergraduate Showcase at UH Manoa.
 
-## Overview
 As students increasingly engage with digital interfaces, understanding how technology influences learning has become essential. This study investigates how variations in instructional website design affect learning outcomes, focusing on identifying specific design elements that enhance engagement, knowledge retention, and cognitive processing in digital environments. For this project
 
 ## Methodology
 Two instructional websites on Python programming fundamentals were developed using **HTML**, **CSS**, **Javascript**, **Typescript**, **React**, **Bootstrap**, **PostgreSQL**, and **Node.js**. Each website incorporated distinct human-computer interaction (HCI) principles to assess their impact on learning behaviors. User interactions were tracked using the **WebGazer.js** and **heatmap.js** eye-tracking libraries, with data stored locally via the **IndexedDB LocalForage** database. Screen recordings were also utilized to analyze user flows and interaction patterns.
+
+<div style="display: flex; justify-content: space-around; align-items: center; margin: 10px 0;">
+    <img src="/img/website-1.gif" alt="Website 1 Gif" style="max-width: 45%; height: auto;">
+    <img src="/img/website-1-heatmap.png" alt="Website 1 Heatmap" style="max-width: 45%; height: auto;">
+</div>
 
 A sample of 16 students enrolled in introductory computer sciences courses with minimal prior experience in Python were selected to ensure a consistent baseline for learning gains. These students were separated into groups of 8 and randomly assigned to a scrollable or multi-paged website. After exploring the websites, participants took a 10-question quiz that reviewed material covered in the websites. Participants explored the websites, completed a quiz on the content, and provided feedback through post-study surveys that captured their perceptions of the websites’ designs and their influence on the learning experience. Data analysis were conducted using ANOVA and t-tests to evalute the influence of user interface (UI) variations on cognitive processing and retention metrics. 
 
@@ -32,4 +37,4 @@ Moving forward, there are several opportunities to expand on this study and addr
 ## Research Reflection
 This research provided me with invaluable experience in website development, particularly as it was my first time building two instructional websites entirely on my own. While I had previously worked on web development projects within a team, this self-led project required me to take full ownership, solving problems and debugging challenges independently. This experience, while sometimes difficult, was ultimately rewarding and greatly enhanced my technical skills. I hope this research highlights the importance of intentional digital design in enhancing student learning, particularly in the context of our rapidly evolving digital educational environments.
 
-To view this project's Undergraduate Showcase presentation, click here[https://docs.google.com/presentation/d/14ttyQXkX_0pzTstjHHnKnqCS2nw2uBWTEVD7mS75Co0/edit?usp=sharing].
+To view this project's Undergraduate Showcase presentation, click <a href="https://docs.google.com/presentation/d/14ttyQXkX_0pzTstjHHnKnqCS2nw2uBWTEVD7mS75Co0/edit?usp=sharing">here.</a>
