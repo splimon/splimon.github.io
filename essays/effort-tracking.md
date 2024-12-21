@@ -4,7 +4,7 @@ type: essay
 title: "Project Management: Tracking Your Efforts"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-20
-published: false
+published: true
 labels:
   - Project Management
   - IDPM
