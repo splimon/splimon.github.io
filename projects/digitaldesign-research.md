@@ -11,7 +11,7 @@ labels:
   - Research
 summary: "A project to investigate how variations in instructional website design influence retention and cognitive processing using Webgazer.js eye tracking software"
 ---
-<br />
+<hr />
 ## Overview
 My project titled "Exploring the Impact of Digital Design on Augmented Cognition" was for a research study under the mentorship of Dr. Michael-Brian Ogawa and Branden Ogata. This project was presented at the Fall 2024 Undergraduate Showcase at UH Manoa.
 
