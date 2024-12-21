@@ -12,10 +12,10 @@ labels:
 summary: "Musicians of Manoa is a web application that connects UH Manoa students with shared musical interests and compatible abilities, enabling them to create profiles, discover jam sessions, and collaborate musically."
 ---
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/landing-1.png" alt="Landing Page 1">
+    <img width="800px" src="/img/landing-1.png" alt="Landing Page 1">
   </div>
   <div style="display: flex; justify-content: space-around;">
-    <img src="/img/landing-2.png" alt="Landing Page 2">
+    <img width="800px" src="/img/landing-2.png" alt="Landing Page 2">
   </div>
 
 ## Project Overview
@@ -27,19 +27,19 @@ I worked on a team of five people to complete this project. Each of us had a spe
 Our project timeline spanned four weeks, and every week, our team completed specific milestones. For <a href="https://github.com/orgs/musicians-of-manoa/projects/1">Milestone 1</a>, I focused on building the Jam Information Page. This page allows users to add Jam Information about an upcoming jam musical session they would like to share for other users on the website to view. This form connected to a PostgreSQL database so all the inputted data could be stored and displayed onto a card in the Jam Search Page.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/jam-information.png" alt="Jam Information Page">
+    <img width="800px" src="/img/jam-information.png" alt="Jam Information Page">
   </div>
 
 Next, during <a href="https://github.com/orgs/musicians-of-manoa/projects/3">Milestone 2</a>, I focused on building the Jam Search Page. This page displays all of the current posted jam sessions hosted by other users. Each user can choose to attend this jam by clicking on the “Attend Jam” button, which saves all the jam information pertinent to the specific jam session and redirects the user to the Attending Jams Page.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/search-jams.png" alt="Jam Search Page">
+    <img width="800px" src="/img/search-jams.png" alt="Jam Search Page">
   </div>
 
 Finally during <a href="https://github.com/orgs/musicians-of-manoa/projects/3">Milestone 5</a>, I focused on building the Attending Jams Page. This page contains all of the jam sessions the current logged-in user has saved. The user can also delete this Jam session if they decide to not attend or if it's a past jam session.
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="/img/attending-jams.png" alt="Attending Jams Page">
+    <img width="800px" src="/img/attending-jams.png" alt="Attending Jams Page">
   </div>
 
 ## Project Takeaways
