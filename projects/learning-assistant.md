@@ -4,7 +4,7 @@ type: project
 image: img/number-theory.jpg
 title: "Teaching an ICS 111 Recitation"
 date: 2024-02-23
-published: true
+published: false
 labels:
   - Learning Assistant
   - Computer Science
