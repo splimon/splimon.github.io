@@ -9,7 +9,6 @@ labels:
   - Next.JS
   - PostgreSQL
   - React
-  - Prisma
 summary: "Musicians of Manoa is a web application that connects UH Manoa students with shared musical interests and compatible abilities, enabling them to create profiles, discover jam sessions, and collaborate musically."
 ---
 <div style="display: flex; justify-content: space-around;">
