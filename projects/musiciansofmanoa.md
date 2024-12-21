@@ -13,10 +13,10 @@ labels:
   - Prisma
 summary: "Musicians of Manoa is a web application that connects UH Manoa students with shared musical interests and compatible abilities, enabling them to create profiles, discover jam sessions, and collaborate musically."
 ---
-<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+<div style="display: flex; justify-content: space-around;">
     <img width="800px" src="/img/landing-1.png" alt="Landing Page 1">
   </div>
-  <div style="display: flex; justify-content: space-around;">
+  <div style="display: flex; justify-content: space-around; margin: 20px 0;">
     <img width="800px" src="/img/landing-2.png" alt="Landing Page 2">
     <p><em>The landing page of the 'Musicians of Manoa' web application.</em></p>
   </div>
