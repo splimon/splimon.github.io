@@ -43,8 +43,8 @@
         "ICS 241: Discrete Mathematics for Computer Science II",
         "ICS 212: Program Structure",
         "ICS 390: Computing Ethics for LAs",
-        "ICS 311: Algorithms (In Progress)",
-        "ICS 314: Software Engineering I (In Progress)",
+        "ICS 311: Algorithms",
+        "ICS 314: Software Engineering I",
       ]
     }
   ],
@@ -58,7 +58,7 @@
       "summary": "",
       "highlights": [
         "Designed and implemented responsive web pages for the Manoa Now platform using React Native, reaching over 1,500 downloads",
-        "Use Xcode and Android Studio to ensure smooth app performance across iOS and Android",
+        "Utilized Xcode and Android Studio for optimized iOS and Android performance",
 	"Optimized website and app performance, reducing load times and improving overall user experience",
       ]
     },
