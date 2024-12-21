@@ -46,3 +46,4 @@ Finally during <a href="https://github.com/orgs/musicians-of-manoa/projects/5">M
 This project was my first time developing a full-stack web application, and I learned a lot of valuable insights into building a website from the ground up. I enhanced my skills in database integration and refined my proficiency in React, CSS, and TypeScript. This experience deepened my understanding of how back-end and front-end components interact and highlighted the importance of designing intuitive and purposeful user experiences.
 
 To access the project’s Github Organization Page, please visit this <a href="https://musicians-of-manoa.github.io/">link.</a>
+To access the source code, please click <a href="https://github.com/musicians-of-manoa/musicians-of-manoa">here.</a>
