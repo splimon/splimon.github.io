@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/webgazer.png
+image: img/webgazer-js.png
 title: "Exploring the Impact of Digital Design on Augmented Cognition"
 date: 2024-12-13
 published: true
