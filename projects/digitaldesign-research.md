@@ -12,25 +12,36 @@ labels:
 summary: "A project to investigate how variations in instructional website design influence retention and cognitive processing using Webgazer.js eye tracking software"
 ---
 <br />
+## Overview
 My project titled "Exploring the Impact of Digital Design on Augmented Cognition" was for a research study under the mentorship of Dr. Michael-Brian Ogawa and Branden Ogata. This project was presented at the Fall 2024 Undergraduate Showcase at UH Manoa.
 
-## Overview
 As students increasingly engage with digital interfaces, understanding how technology influences learning has become essential. This study investigates how variations in instructional website design affect learning outcomes, focusing on identifying specific design elements that enhance engagement, knowledge retention, and cognitive processing in digital environments. For this project
 
 ## Methodology
 Two instructional websites on Python programming fundamentals were developed using **HTML**, **CSS**, **Javascript**, **Typescript**, **React**, **Bootstrap**, **PostgreSQL**, and **Node.js**. Each website incorporated distinct human-computer interaction (HCI) principles to assess their impact on learning behaviors. User interactions were tracked using the **WebGazer.js** and **heatmap.js** eye-tracking libraries, with data stored locally via the **IndexedDB LocalForage** database. Screen recordings were also utilized to analyze user flows and interaction patterns.
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/img/website-1.gif" alt="Website 1 Gif" style="max-width: 45%; height: auto;">
     <p style="text-align: center;"><em>Scrollable Website format</em></p>
+  </div>
+  
+  <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/img/website-1-heatmap.png" alt="Website 1 Heatmap" style="max-width: 45%; height: auto;">
-  <p style="text-align: center;"><em>Scrollable Website heatmap</em></p>
+    <p style="text-align: center;"><em>Scrollable Website heatmap</em></p>
+  </div>
 </div>
+
 <div style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0;">
+  <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/img/website-2.gif" alt="Website 2 Gif" style="max-width: 45%; height: auto;">
     <p style="text-align: center;"><em>Multi-paged Website format</em></p>
+  </div>
+  
+  <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/img/website-2-heatmap.png" alt="Website 2 Heatmap" style="max-width: 45%; height: auto;">
     <p style="text-align: center;"><em>Multi-paged Website heatmap</em></p>
+  </div>
 </div>
 
 A sample of 16 students enrolled in introductory computer sciences courses with minimal prior experience in Python were selected to ensure a consistent baseline for learning gains. These students were separated into groups of 8 and randomly assigned to a scrollable or multi-paged website. After exploring the websites, participants took a 10-question quiz that reviewed material covered in the websites. Participants explored the websites, completed a quiz on the content, and provided feedback through post-study surveys that captured their perceptions of the websites’ designs and their influence on the learning experience. Data analysis were conducted using ANOVA and t-tests to evalute the influence of user interface (UI) variations on cognitive processing and retention metrics. 
