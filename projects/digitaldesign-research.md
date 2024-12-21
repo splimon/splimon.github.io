@@ -22,24 +22,24 @@ Two instructional websites on Python programming fundamentals were developed usi
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/img/website-1.gif" alt="Website 1 Gif" style="max-width: 300px; height: auto;">
+    <img src="/img/website-1.gif" alt="Website 1 Gif" style="max-width: 500px; height: auto;">
     <p style="text-align: center;"><em>Scrollable Website format</em></p>
   </div>
   
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/img/website-1-heatmap.png" alt="Website 1 Heatmap" style="max-width: 300px; height: auto;">
+    <img src="/img/website-1-heatmap.png" alt="Website 1 Heatmap" style="max-width: 500px; height: auto;">
     <p style="text-align: center;"><em>Scrollable Website heatmap</em></p>
   </div>
 </div>
 
 <div style="display: flex; justify-content: space-around; align-items: center; margin: 20px 0;">
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/img/website-2.gif" alt="Website 2 Gif" style="max-width: 300px; height: auto;">
+    <img src="/img/website-2.gif" alt="Website 2 Gif" style="max-width: 500px; height: auto;">
     <p style="text-align: center;"><em>Multi-paged Website format</em></p>
   </div>
   
   <div style="display: flex; flex-direction: column; align-items: center;">
-    <img src="/img/website-2-heatmap.png" alt="Website 2 Heatmap" style="max-width: 300px; height: auto;">
+    <img src="/img/website-2-heatmap.png" alt="Website 2 Heatmap" style="max-width: 500px; height: auto;">
     <p style="text-align: center;"><em>Multi-paged Website heatmap</em></p>
   </div>
 </div>
