@@ -4,7 +4,7 @@ type: essay
 title: "Software Engineering: A Synopsis"
 # All dates must be YYYY-MM-DD format!
 date: 2024-12-18
-published: true
+published: false
 labels:
   - Software Engineering
   - Functional Programming
